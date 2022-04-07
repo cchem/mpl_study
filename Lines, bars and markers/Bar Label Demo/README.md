@@ -65,3 +65,6 @@ ax.bar_label(bar_object, label=['hoge' for _ in range(n)])
 <p align="center">
   <img src="main3.png" alt="main3.png">
 </p>
+
+# URL
+[https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_label_demo.html](https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_label_demo.html)
