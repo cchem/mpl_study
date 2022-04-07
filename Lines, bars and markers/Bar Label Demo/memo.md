@@ -44,13 +44,24 @@ ax.invert_yaxis()
 を使う。
 
 ---
+ax.bar_labelの仕様として、labelを与えなかった場合は棒グラフの値を読んでよしなにラベルが付与される。
+label引数にテキストを与えると、そのテキストを使ってラベルが描画される。
+```python
+ax.bar_label(bar_object, label=['hoge' for _ in range(n)])
+```
+
+---
 
 ## Picture
 
 <p align="center">
-  <img height="300" src="main.png" alt="main.png">
+  <img src="main.png" alt="main.png">
 </p>
 
 <p align="center">
-  <img height="300" src="main2.png" alt="main2.png">
+  <img src="main2.png" alt="main2.png">
+</p>
+
+<p align="center">
+  <img src="main3.png" alt="main3.png">
 </p>
