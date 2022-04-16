@@ -14,11 +14,8 @@ def main():
     fig, ax = plt.subplots()
     ax.plot(x, y, 'k')
     ax.set(aspect=1)
-    plt.show()
+    plt.savefig('main.png')
     return
-
-
-
 
 
 if __name__ == '__main__':
